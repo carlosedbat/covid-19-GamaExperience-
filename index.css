@@ -1,0 +1,12 @@
+#menuNav{
+    display: flex;
+    justify-content: space-between;
+}
+#noticias{
+    display: flex;
+    justify-content: space-between;
+}
+#rodape{
+    display: flex;
+    justify-content: space-between;
+}
