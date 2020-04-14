@@ -28,14 +28,14 @@ a{
 #noticias{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 #rodape{
     display: flex;
     justify-content: space-between;
 }
-#imgNoticia{
-    height: 150px;
-    width: 150px;
+.imgNoticia1{
+width: 80%;
 }
 .boxNoticia{
     border: black 1px solid;
@@ -47,24 +47,32 @@ a{
     width: 20%;
     border: black 1px solid;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
+    display: inline-block;
+    background-color: rgb(182, 182, 182);
 }
 #ladoEsquerdo{
     float: left;
-    width: 60%;
+    width: 76%;
+    padding: 10px;
 }
 .imgNoticia2{
     max-width: 150px;
     max-height: 150px;
-    width: auto;
-    height: auto;
 }
 .boxNoticia2{
     border: black 1px solid;
     padding: 10px;
     margin: 5px;
 }
-#cabecalho{
-    border: black 1px solid;
+#imgNoticia {
+ padding-left: 15%;
+}
+p{
+    text-align: justify;
+}
+#conteudoNoticia{
+    margin: 10px;
+}
+.descricaoImagem{
+    text-align: center;
 }
