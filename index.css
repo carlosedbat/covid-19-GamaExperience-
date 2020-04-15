@@ -30,8 +30,7 @@ a{
     justify-content: space-between;
 }
 #rodape{
-    display: flex;
-    justify-content: space-between;
+    background-image: url(./imagens/rodape.png);
 }
 #imgNoticia{
     height: 150px;
@@ -52,7 +51,7 @@ a{
 }
 #ladoEsquerdo{
     float: left;
-    width: 60%;
+    width: 70%;
 }
 .imgNoticia2{
     max-width: 150px;
@@ -66,5 +65,22 @@ a{
     margin: 5px;
 }
 #cabecalho{
-    border: black 1px solid;
+    background-image: url(./imagens/cabecalho1.png);
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    background-color: green;
+    color: white;
+    font-family: fantasy;
+}
+.cabecalho{
+
+}
+#conteudoNoticia{
+    margin: 10px;
 }

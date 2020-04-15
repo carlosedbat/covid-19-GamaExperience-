@@ -72,7 +72,28 @@ p{
 }
 #conteudoNoticia{
     margin: 10px;
+    background-image: url(./imagens/mapa.png);
 }
 .descricaoImagem{
     text-align: center;
+}
+#cabecalho{
+    background-image: url(./imagens/cabecalho1.png);
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    background-color: green;
+    color: white;
+    font-family: fantasy;
+}
+.cabecalho{
+
+}
+#conteudoNoticia{
+    margin: 10px;
 }
