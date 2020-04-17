@@ -22,6 +22,18 @@ body{
     border-right: white 1px solid;
     padding-right: 10px;
 }
+.buttonNav3{
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 5px 5px 5px 5px;
+    color: #ff3b3f;
+    background-color: white;
+    border-right: white 1px solid;
+    padding-right: 10px; 
+}
 a{
     text-decoration: none;
 }
