@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="noticia.css">
 </head>
 
-<body>
+<body id="backContato">
     <div id="cabecalho">
         <div class="cabecalho">
             <h1>Desafio Gama Experience (COVID-19)</h1>
@@ -25,17 +25,17 @@
         <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
             <div class="row">
                 <label class="required" for="name">Seu nome:</label><br />
-                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                <input id="name" class="input" name="name" type="text" value="" /><br />
                 <span id="name_validation" class="error_message"></span>
             </div>
             <div class="row">
                 <label class="required" for="email">Seu e-mail:</label><br />
-                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                <input id="email" class="input" name="email" type="text" value="" /><br />
                 <span id="email_validation" class="error_message"></span>
             </div>
             <div class="row">
                 <label class="required" for="message">Sua mensagem:</label><br />
-                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                <textarea id="message" class="input2" name="message"></textarea><br />
                 <span id="message_validation" class="error_message"></span>
             </div>
 
@@ -44,20 +44,12 @@
     </div>
 
     <div id="noticias">
-        <div>noticia 1</div>
-        <div>noticia 2</div>
-        <div>noticia 3</div>
+        <div></div>
     </div>
 
     <div id="rodape">
-        <div class="contatos">
-            <br>contato 1
-            <br>contato 2
-            <br>contato 3
-        </div>
-        <div class="email">
-            fique por dentro
-        </div>
+        <div ><img id="imgRodape" src="./imagens/Red_copyright.png" alt=""></div>
+        <div id="textoRodape">Carlos Eduardo Batista</div>
     </div>
 
 </body>
