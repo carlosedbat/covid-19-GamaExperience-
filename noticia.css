@@ -20,7 +20,7 @@ body{
     border-radius: 5px 5px 5px 5px;
     color: white;
     border-right: white 1px solid;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 .buttonNav3{
     height: 30px;
@@ -32,10 +32,11 @@ body{
     color: #ff3b3f;
     background-color: white;
     border-right: white 1px solid;
-    padding-right: 10px; 
+    padding-right: 0px; 
 }
 a{
     text-decoration: none;
+    color: inherit;
 }
 .linkNav{
     color: white;
@@ -75,7 +76,7 @@ width: 80%;
     padding: 10px;
     margin: 5px;
     background-color: #caebf2;
-    width: 400px;
+    width: 370px;
     height: 450px;
 }
 #imgNoticia {
@@ -92,7 +93,7 @@ p{
     text-align: center;
 }
 #cabecalho{
-    background-image: url(./imagens/cabecalho1.png);
+    background-image: url(./imagens/banner1.png);
     background-size: 300px 100px;
     background-repeat: no-repeat;
     background-position: right;
@@ -145,8 +146,8 @@ iframe{
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 115px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     background-color: #ff3b3f;
     color: white;
     border-radius: 10px 10px 10px 10px;
@@ -154,14 +155,15 @@ iframe{
     text-decoration: none;
     padding: 10px 0px 10px 0px;
     font-weight: bold;
+    font-size: 12px;
 }
 .painelcovid:hover{
     border:#a9a9a9 1px solid;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
-    width: 115px;
-    height: 40px;
+    width: 100px;
+    height: 30px;
     background-color: #0b3c5d;
     color: white;
     border-radius: 10px 10px 10px 10px;
@@ -223,18 +225,11 @@ audio{
     background-color: #ff3b3f;
 }
 #conteudoContato{
-    border: black 1px solid;
-    margin-left: 39%;
-    margin-right: 39%;
-    display: grid;
-    grid-template-columns:  100% ;
-    align-items: center;
-    text-align: center;
-    padding-right: 10px;
-    padding-left: 10px;
-    background-color: #a1a1a1;
-    margin-bottom: 10%;
-    margin-top: 30px;
+    height: 100%;
+    width: 640px; 
+    height: 1050px;
+    margin-left: 30%;
+
 }
 .input{
     width: 250px;
@@ -250,7 +245,7 @@ audio{
     margin-bottom: 5px;
 }
 #backContato{
-    background-image: url(./imagens/fundo_contato.png);
+    
 }
 #tituloPagina{
     text-align: center;
@@ -267,4 +262,65 @@ audio{
     margin-top: 15px;
     color: red;
     font-weight: bold;
+}
+#fontesNot{
+    margin-left: 30%;
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    padding: 30px 10px 30px 20px;
+    border: #ff3b3f 2px solid;
+    margin-bottom: 10%;
+    margin-right: 30%;
+    background-color: #caebf2;
+}
+.fontesNot{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#formGoogle{
+    height: 1050px;
+}
+#sobreMim{
+    text-align: justify;
+    margin: 5% 5% 5% 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linhaLateral{
+
+margin: 40% 10px 40% 10px;
+background-color: #0b3c5d;
+width: 480px;
+
+}
+#conteudoSobre{
+    display: grid;
+    grid-template-columns: 25% 35% 25%;
+}
+.minhaFoto{
+    width: 290px;
+    height: 300px;
+    border-radius: 150px 150px 150px 150px;
+    border: #0b3c5d 2px solid;
+    background-image: url(./imagens/61972574_2025952627527426_273992774313836544_n.jpg);
+    background-repeat: no-repeat;
+    background-size: 300px 400px;
+    background-position: top;
+    margin-left: 35%;
+}
+
+#formGoogle{
+    border: black 0px solid;
+}
+#contatosMidia{
+    display: flex;
+    align-content: space-between;
+}
+.contatosMidia{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
