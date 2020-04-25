@@ -1,116 +1,256 @@
 <html>
 
 <head>
-    <title>COVID-19</title>
-    <link rel="stylesheet" href="noticia.css">
-    <script type="text/javascript" src="./scripts.js"></script>
+        <title>COVID-19</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+                integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="noticia.css">
 </head>
 
 <body>
-    <div id="cabecalho">
-        <div class="cabecalho">
-            <h1>Desafio Gama Experience (COVID-19)</h1>
-        </div>
-        <div class="cabecalho"></div>
-    </div>
-
-    <div id="menuNav">
-        <div class="buttonNav3"><a class="linkNav" href="index.html">HOME</a></div>
-        <div class="buttonNav"><a class="linkNav" href="sobre.html">SOBRE</a></div>
-        <div class="buttonNav"><a class="linkNav" href="saiba_mais.html">SAIBA MAIS</a></div>
-        <div class="buttonNav"><a class="linkNav" href="contato.html">CONTATO</a></div>
-    </div>
-
-    <div id="tituloPagina">Noticias e informativos sobre o COVID-19</div>
-    <div id="ladoDireito">
-        <div class="boxNoticia2">
-                <div><iframe src="https://www.youtube.com/embed/wyMPN6RRWjM" frameborder="0"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe></div>
-                <div class="subTituloNot">Mais de 50% dos pacientes com coronavírus no Brasil já se curaram</div>
-                <div class="fonteNot">Fonte: Record News</div>
-        </div>
-        <div class="boxNoticia2">
-                <div class="tituloNot">Coronavírus: Os sintomas podem ser confundidos com infarto?</div>
-                <div><img src="./imagens/imagem_not_4.jpg" alt="" class="imgNoticia2"></div>
-                <div class="subTituloNot">Por G1 • 06/04/2020 13:40</div>
-                <div><audio src="./media/Coronavírus Os sintomas podem ser confundidos com infarto.mp3"
-                        controls></audio></div>
-                <div class="textoNot">Você pode ouvir todos os episódios de "Novo coronavírus: perguntas e respostas" no
-                    G1, no Spotify,
-                    no Castbox, no Google Podcasts, no Apple Podcasts, no Deezer ou no aplicativo de sua preferência.
-                    Assine ou siga o programa "Novo coronavírus: perguntas e respostas, para ser avisado sempre que
-                    tiver novo episódio no ar.</div>
-                <div class="fonteNot">Fonte: G1</div>
-        </div>
-        <div class="boxNoticia2">
-            <div class="painelcovid2"><a href="https://coronavirus.saude.gov.br/">O
-                    QUE VOCÊ PRECISA SABER</a></div>
-            <div id="painelcovid">
-                <div class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#o-que-e-covid">O QUE É COVID-19</a></div>
-                <DIV class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#sintomas">QUAIS SAO OS SINTOMAS</a></DIV>
-                <DIV class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#transmissao">COMO E TRANSMITIDO</a></DIV>
-                <DIV class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#diagnostico">DIAGNOSTICO</a></DIV>
-                <DIV class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#como-se-proteger">COMO SE PROTEGER</a>
-                </DIV>
-                <DIV class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#se-eu-ficar-doente">SE EU FICAR DOENTE</a>
-                </DIV>
-                <DIV class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#servico-de-saude">SERVIÇO DE SAÚDE</a>
-                </DIV>
-                <DIV class="painelcovid"><a class="link" href="https://www.saude.gov.br/fakenews">FAKE NEWS</a></DIV>
-                <DIV class="painelcovid"><a class="link"
-                        href="https://coronavirus.saude.gov.br/perguntas-frequentes">PERGUNTAS FREQUENTES</a></DIV>
-                <DIV class="painelcovid"><a class="link" href="https://covid.saude.gov.br/">PAINEL COVID-19</a></DIV>
-                <DIV class="painelcovid"><a class="link" href="https://www.gov.br/pt-br/apps/coronavirus-sus">APP
-                        CORONAVIRUS</a></DIV>
-                <DIV class="painelcovid"><a class="link" href="tel:136">DISQUE SAUDE 136</a></DIV>
-            </div>
-        </div>
-        <div class="boxNoticia2">
-            <a href="https://google.com/covid19-map/?hl=pt-BR">
-                <div class="tituloNot">Mapa do coronavirus pelo mundo</div>
-                <div class="subTituloNot">Clique no mapa para visualizar!</div>
-                <div><img src="./imagens/mapa-covid19.jpg" class="imgNoticia3" alt=""></div>
-
-
-                <div class="fonteNot">Fonte: Google</div>
-            </a>
-        </div>
-        <div class="boxNoticia2">
-                <div class="tituloNot">Guia para comunicação sobre covid-19 é tema de entrevista da Rádio Senado</div>
-                <div><audio
-                        src="./media/lancamento-do-livro-covid-19-e-comunicacao-um-guia-pratico-para-enfrentar-a-crise.mp3"
-                        controls></audio>
+        <div id="cabecalho">
+                <div class="container">
+                        <div class="row">
+                                <div class="col-md-12">
+                                        <div class="cabecalho">
+                                                <h1>Desafio Gama Experience (COVID-19)</h1>
+                                        </div>
+                                </div>
+                        </div>
                 </div>
-                <div class="textoNot">Foi lançado recentemente pelo Núcleo de Estudos de Rádio (NER) da Universidade Federal do Rio
-                    Grande do Sul (UFRGS) o livro Covid-19 e Comunicação, um Guia Prático para Enfrentar a Crise,
-                    disponível gratuitamente em versão e-book no endereço da internet http://bit.ly/guianer. E, nesta
-                    quinta-feira (16), o jornalista Adriano Faria, da Rádio Senado, conversou com um dos autores do
-                    livro, o professor Luiz Artur Ferraretto, doutor em comunicação e coordenador do NER, que tratou do
-                    jornalismo profissional como estratégia de enfrentamento à pandemia. Ouça o áudio com a entrevista.
-                </div>
-                <div class="fonteNot">Fonte: Agência Senado</div>
-        </div>
-        <div class="boxNoticia2">
-            <div><iframe src="https://www.youtube.com/embed/O6UPDHsoKE4" frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe></div>
-            <div class="subTituloNot">Entenda o que é o Coronavírus</div>
-            <div class="fonteNot">Fonte: Jovem Pan News</div>
         </div>
 
-    </div>
-    <div id="rodape">
-        <div ><img id="imgRodape" src="./imagens/Red_copyright.png" alt=""></div>
-        <div id="textoRodape">Carlos Eduardo Batista</div>
-    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="index.html">Home</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                        <a class="nav-link" href="sobre.html">SOBRE</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="saiba_mais.html">SAIBA MAIS</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="contato.html">CONTATO</a>
+                                </li>
+                        </ul>
+                </div>
+        </nav>
+        <div class="container" id="tituloNoticias">
+                <div class="row">
+                        <div class="col-md-12">
+                                <div id="tituloPagina">Noticias e informativos sobre o COVID-19</div>
+                        </div>
+                </div>
+        </div>
+
+        <div class="container" id="noticias">
+                <div class="row">
+                        <div class="col-md-4">
+                                <div class="boxNoticia2">
+                                        <div><iframe src="https://www.youtube.com/embed/wyMPN6RRWjM" frameborder="0"
+                                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                        allowfullscreen></iframe></div>
+                                        <div class="subTituloNot">Mais de 50% dos pacientes com coronavírus no Brasil já
+                                                se curaram
+                                        </div>
+                                        <div class="fonteNot">Fonte: Record News</div>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="boxNoticia2">
+                                        <div class="tituloNot">Coronavírus: Os sintomas podem ser confundidos com
+                                                infarto?</div>
+                                        <div><img src="./imagens/imagem_not_4.jpg" alt="" class="imgNoticia2"></div>
+                                        <div class="subTituloNot">Por G1 • 06/04/2020 13:40</div>
+                                        <div><audio src="./media/Coronavírus Os sintomas podem ser confundidos com infarto.mp3"
+                                                        controls></audio></div>
+                                        <div class="textoNot">Você pode ouvir todos os episódios de "Novo coronavírus:
+                                                perguntas e
+                                                respostas" no
+                                                G1, no Spotify,
+                                                no Castbox, no Google Podcasts, no Apple Podcasts, no Deezer ou no
+                                                aplicativo de sua
+                                                preferência.
+                                                Assine ou siga o programa "Novo coronavírus: perguntas e respostas, para
+                                                ser avisado
+                                                sempre que
+                                                tiver novo episódio no ar.</div>
+                                        <div class="fonteNot">Fonte: G1</div>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+
+                                <div class="boxNoticia2">
+                                        <div class="container">
+                                                <div class="row">
+                                                        <div class="col-md-12">
+                                                                <div class="painelcovid2"><a
+                                                                                href="https://coronavirus.saude.gov.br/">O
+                                                                                QUE VOCÊ PRECISA SABER</a></div>
+                                                        </div>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <div class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#o-que-e-covid">O
+                                                                        QUE É COVID-19</a></div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#sintomas">QUAIS
+                                                                        SAO OS SINTOMAS</a></DIV>
+                                                </div>
+
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#diagnostico">DIAGNOSTICO</a>
+                                                        </DIV>
+                                                </div>
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#como-se-proteger">COMO
+                                                                        SE PROTEGER</a>
+                                                        </DIV>
+                                                </div>
+
+
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#servico-de-saude">SERVIÇO
+                                                                        DE SAÚDE</a>
+                                                        </DIV>
+                                                </div>
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#transmissao">COMO
+                                                                        E TRANSMITIDO</a></DIV>
+                                                </div>
+
+
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://www.saude.gov.br/fakenews">FAKE
+                                                                        NEWS</a></DIV>
+                                                </div>
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/sobre-a-doenca#se-eu-ficar-doente">SE
+                                                                        EU FICAR DOENTE</a>
+                                                        </DIV>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://covid.saude.gov.br/">PAINEL
+                                                                        COVID-19</a></DIV>
+                                                </div>
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://coronavirus.saude.gov.br/perguntas-frequentes">PERGUNTAS
+                                                                        FREQUENTES</a></DIV>
+                                                </div>
+                                        </div>
+                                        <div class="row">
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link"
+                                                                        href="https://www.gov.br/pt-br/apps/coronavirus-sus">APP
+                                                                        CORONAVIRUS</a></DIV>
+                                                </div>
+                                                <div class="col-md-6">
+                                                        <DIV class="painelcovid"><a class="link" href="tel:136">DISQUE
+                                                                        SAUDE
+                                                                        136</a></DIV>
+                                                </div>
+                                        </div>
+
+                                </div>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-4">
+                                <div class="boxNoticia2">
+                                        <a href="https://google.com/covid19-map/?hl=pt-BR">
+                                                <div class="tituloNot">Mapa do coronavirus pelo mundo</div>
+                                                <div class="subTituloNot">Clique no mapa para visualizar!</div>
+                                                <div><img src="./imagens/mapa-covid19.jpg" class="imgNoticia3" alt="">
+                                                </div>
+
+
+                                                <div class="fonteNot">Fonte: Google</div>
+                                        </a>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="boxNoticia2">
+                                        <div class="tituloNot">Guia para comunicação sobre covid-19 é tema de entrevista
+                                                da Rádio Senado
+                                        </div>
+                                        <div><audio src="./media/lancamento-do-livro-covid-19-e-comunicacao-um-guia-pratico-para-enfrentar-a-crise.mp3"
+                                                        controls></audio>
+                                        </div>
+                                        <div class="textoNot">Foi lançado recentemente pelo Núcleo de Estudos de Rádio
+                                                (NER) da
+                                                Universidade Federal do Rio
+                                                Grande do Sul (UFRGS) o livro Covid-19 e Comunicação, um Guia Prático
+                                                para Enfrentar a
+                                                Crise,
+                                                disponível gratuitamente em versão e-book no endereço da
+                                                internet http://bit.ly/guianer.
+                                                E, nesta
+                                                quinta-feira (16), o jornalista Adriano Faria, da Rádio
+                                                Senado, conversou com um dos
+                                                autores do
+                                                livro, o professor Luiz Artur Ferraretto, doutor em comunicação e
+                                                coordenador do NER,
+                                                que tratou do
+                                                jornalismo profissional como estratégia de enfrentamento à pandemia.
+                                                Ouça o áudio com a
+                                                entrevista.
+                                        </div>
+                                        <div class="fonteNot">Fonte: Agência Senado</div>
+                                </div>
+                        </div>
+                        <div class="col-md-4">
+                                <div class="boxNoticia2">
+                                        <div><iframe src="https://www.youtube.com/embed/O6UPDHsoKE4" frameborder="0"
+                                                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                        allowfullscreen></iframe></div>
+                                        <div class="subTituloNot">Entenda o que é o Coronavírus</div>
+                                        <div class="fonteNot">Fonte: Jovem Pan News</div>
+                                </div>
+                        </div>
+                </div>
+        </div>
+        <div id="rodape">
+                <div><img id="imgRodape" src="./imagens/Red_copyright.png" alt=""></div>
+                <div id="textoRodape">Carlos Eduardo Batista</div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+                crossorigin="anonymous"></script>
 
 </body>
 

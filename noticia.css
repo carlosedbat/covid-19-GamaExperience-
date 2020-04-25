@@ -11,17 +11,10 @@ body{
     padding-bottom: 5px;
     padding-top: 5px;
 }
-.buttonNav{
-    height: 30px;
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border-radius: 5px 5px 5px 5px;
-    color: white;
-    border-right: white 1px solid;
-    padding-right: 0px;
+nav{
+    background-color: #ff3b3f;
 }
+
 .buttonNav3{
     height: 30px;
     width: 100px;
@@ -38,9 +31,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
-.linkNav{
+.nav-link{
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
 }
 #noticias{
     display: flex;
@@ -54,6 +47,7 @@ a{
     height: 50px;
 
 }
+
 .imgNoticia1{
 width: 80%;
 }
@@ -68,7 +62,7 @@ width: 80%;
 
 }
 .imgNoticia2{
-    max-width: 250px;
+    width: 100%;
     max-height: 150px;
 }
 .boxNoticia2{
@@ -76,8 +70,8 @@ width: 80%;
     padding: 10px;
     margin: 5px;
     background-color: #caebf2;
-    width: 370px;
-    height: 450px;
+    width: 100%;
+    height: 98%;
 }
 #imgNoticia {
  padding-left: 15%;
@@ -106,20 +100,10 @@ p{
     color: white;
     font-family: fantasy;
 }
-#conteudoNoticia{
-    margin: 10px;
-}
 #video{
     position: relative;
 }
-video{
-    position: absolute;
-    top: 110%;
-    right: 0;
-    left: 15%;
-    bottom: 0;
-    margin-bottom: 10%;
-}
+
 h5{
     text-align: center;
 }
@@ -143,11 +127,8 @@ iframe{
 }
 .painelcovid{
     border:#a9a9a9 1px solid;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 30px;
+    width: 100%;
+    height: 98%;
     background-color: #ff3b3f;
     color: white;
     border-radius: 10px 10px 10px 10px;
@@ -155,15 +136,12 @@ iframe{
     text-decoration: none;
     padding: 10px 0px 10px 0px;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 16px;
 }
 .painelcovid:hover{
     border:#a9a9a9 1px solid;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 100px;
-    height: 30px;
+    width: 100%;
+    height: 98%;
     background-color: #0b3c5d;
     color: white;
     border-radius: 10px 10px 10px 10px;
@@ -171,34 +149,24 @@ iframe{
     text-decoration: none;
     padding: 10px 0px 10px 0px;
     font-weight: bold;
+    font-size: 16px;
 }
 a:visited{
     color: inherit;
     text-decoration: none;
 }
 .painelcovid2{
-    margin: 20px;
+    margin-bottom: 20px;
     padding: 5px;
     border-radius: 10px;
     background-color: #0b3c5d;
     color: white;
     font-weight: bold;
-}
-#containerLavMao{
-    display: flex;
-    border: black 1px solid;
-    padding-left: 10%;
-}
-.containerLavMao{
-    border: black 1px solid;
-    margin: 10px;
-    width: 150px;
-    height: 50px;
-    padding-top: 25px;
+    text-align: center;
 }
 .imgNoticia3{
     height: 55%;
-    width: 90%;
+    width: 100%;
     margin-top: 70px;
     margin-bottom: 20px;
 }
@@ -223,13 +191,13 @@ audio{
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #ff3b3f;
+    width: 100%;
 }
 #conteudoContato{
     height: 100%;
     width: 640px; 
     height: 1050px;
     margin-left: 30%;
-
 }
 .input{
     width: 250px;
@@ -243,9 +211,6 @@ audio{
     margin-right: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
-}
-#backContato{
-    
 }
 #tituloPagina{
     text-align: center;

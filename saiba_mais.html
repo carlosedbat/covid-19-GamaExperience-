@@ -2,6 +2,9 @@
 
 <head>
     <title>SAIBA MAIS</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+    crossorigin="anonymous">
     <link rel="stylesheet" href="noticia.css">
 </head>
 
@@ -13,21 +16,38 @@
         <div class="cabecalho"></div>
     </div>
 
-    <div id="menuNav">
-        <div class="buttonNav"><a class="linkNav" href="index.html">HOME</a></div>
-        <div class="buttonNav"><a class="linkNav" href="sobre.html">SOBRE</a></div>
-        <div class="buttonNav3"><a class="linkNav" href="saiba_mais.html">SAIBA MAIS</a></div>
-        <div class="buttonNav"><a class="linkNav" href="contato.html">CONTATO</a></div>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">SOBRE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="saiba_mais.html">SAIBA MAIS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contato.html">CONTATO</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div id="fontesNot">
-        <div class="fontesNot"><a href="https://www.youtube.com/watch?v=wyMPN6RRWjM&feature=emb_logo">Video - Mais de 50% dos pacientes
+        <div class="fontesNot"><a href="https://www.youtube.com/watch?v=wyMPN6RRWjM&feature=emb_logo">Video - Mais de
+                50% dos pacientes
                 com coronavírus no Brasil já se curaram</a></div>
         <div class="fontesNot"><a
                 href="https://g1.globo.com/bemestar/coronavirus/podcast/novo-coronavirus-perguntas-e-respostas/noticia/2020/04/06/sintomas-da-covid-19-podem-ser-confundidos-com-infarto.ghtml">Audio
                 - Sintomas da Covid-19 podem ser confundidos com infarto</a></div>
         <div class="fontesNot"><a href="https://coronavirus.saude.gov.br/">Painel - o que voce precisa saber.</a></div>
-        <div class="fontesNot"><a href="https://google.com/covid19-map/?hl=pt-BR">Imagem - Mapa do COVID-19 pelo mundo.</a></div>
+        <div class="fontesNot"><a href="https://google.com/covid19-map/?hl=pt-BR">Imagem - Mapa do COVID-19 pelo
+                mundo.</a></div>
         <div class="fontesNot"><a
                 href="https://www12.senado.leg.br/noticias/audios/2020/04/guia-para-comunicacao-sobre-covid-19-e-tema-de-entrevista-da-radio-senado">Audio
                 - Guia para comunicação sobre covid-19 é tema de entrevista da Rádio Senado</a></div>
@@ -38,6 +58,17 @@
         <div><img id="imgRodape" src="./imagens/Red_copyright.png" alt=""></div>
         <div id="textoRodape">Carlos Eduardo Batista</div>
     </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 
 </body>
 
